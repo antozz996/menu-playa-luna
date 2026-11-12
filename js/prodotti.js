@@ -146,13 +146,22 @@ const MENUS = [
             foto: "img/panino-crudo-cotto.jpg"
           },
           {
-            nome: { it: "Cotoletta, würstel e patatine", en: "Cutlet, Frankfurter and Fries" },
+            nome: { it: "Cotoletta e patatine", en: "Cutlet and Fries" },
             descrizione: {
-              it: "Cotoletta croccante, würstel e patatine fritte.",
-              en: "Crispy cutlet, frankfurter and fries."
+              it: "Cotoletta croccante e patatine fritte.",
+              en: "Crispy cutlet and fries."
             },
-            prezzo: 7.0,
-            foto: "img/panino-cotoletta-wurstel.jpg"
+            prezzo: null,
+            foto: "img/panino-cotoletta-patatine.jpg"
+          },
+          {
+            nome: { it: "Würstel e patatine", en: "Frankfurter and Fries" },
+            descrizione: {
+              it: "Würstel e patatine fritte.",
+              en: "Frankfurter and fries."
+            },
+            prezzo: null,
+            foto: "img/panino-wurstel-patatine.jpg"
           },
           {
             nome: { it: "Tonno e pomodoro", en: "Tuna and Tomato" },

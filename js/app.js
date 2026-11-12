@@ -166,7 +166,9 @@ function rigaCompatta(prodotto) {
 
   const prezzoEl = document.createElement("span");
   prezzoEl.className = "lista-prezzo";
-  prezzoEl.textContent = prezzo(prodotto.prezzo);
+  if (prodotto.prezzo !== null && prodotto.prezzo !== undefined) {
+    prezzoEl.textContent = prezzo(prodotto.prezzo);
+  }
 
   riga.appendChild(testo);
   riga.appendChild(leader);
