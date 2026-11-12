@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Menu Asporto · Playa Luna</title>
+  <meta name="description" content="Menu del Playa Luna, Marina di Varcaturo: banco food, asporto e bar. Antipasti, primi, secondi, panini, caffetteria, bevande e vini.">
+  <meta name="theme-color" content="#f5f0e7">
+  <meta property="og:title" content="Menu · Playa Luna">
+  <meta property="og:description" content="Cucina di mare, panini, bar e vini del Playa Luna, Marina di Varcaturo.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="img/playaluna-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Playa Luna">
+        <img src="img/playaluna-logo.svg" alt="Playa Luna" width="120" height="79">
+      </a>
+      <div class="lang" role="group" aria-label="Lingua / Language">
+        <button type="button" class="lang-btn is-active" data-lang="it">IT</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="hero-kicker" data-i18n="kicker">Banco food · Bar · Asporto</p>
+        <h1 class="hero-title" id="heroTitle">Menu <em>asporto</em>.</h1>
+        <p class="hero-sub" id="heroSub">Cucina di mare, panini e piatti della tradizione, dal nostro banco food.</p>
+        <div class="menu-switch" id="menuSwitch" role="tablist" aria-label="Selezione menu"></div>
+      </div>
+    </section>
+
+    <nav class="cat-nav" aria-label="Categorie del menu">
+      <div class="container cat-nav-inner" id="catNav"></div>
+    </nav>
+
+    <div class="container menu" id="menu">
+      <noscript><p class="noscript">Attiva JavaScript per visualizzare il menu.</p></noscript>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <section class="footer-info">
+        <div>
+          <h3 data-i18n="doveSiamo">Dove siamo</h3>
+          <p><a id="mapLink" href="#" target="_blank" rel="noopener">Via Marina di Varcaturo, 42 · Giugliano in Campania (NA)</a></p>
+        </div>
+        <div>
+          <h3 data-i18n="seguici">Seguici</h3>
+          <p class="footer-social">
+            <a id="igLink" href="#" target="_blank" rel="noopener">Instagram</a>
+            <a id="fbLink" href="#" target="_blank" rel="noopener">Facebook</a>
+          </p>
+        </div>
+      </section>
+
+      <p class="footer-credit">© 2026 Playa Luna · <span data-i18n="credito">Menu asporto</span></p>
+    </div>
+  </footer>
+
+  <script src="js/prodotti.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
